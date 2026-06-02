@@ -1,0 +1,28 @@
+appId: com.novastudios.launcher
+productName: Nova Launcher
+artifactName: Nova-Launcher-Setup-${version}.${ext}
+copyright: Copyright © 2026 Nova Studios
+directories:
+  output: release
+  buildResources: assets
+files:
+  - dist/**
+  - dist-electron/**
+  - assets/brand/**
+win:
+  executableName: Nova Launcher
+  target:
+    - target: nsis
+      arch:
+        - x64
+    - target: dir
+      arch:
+        - x64
+  icon: assets/brand/nova-logo-black-bg.ico
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: always
+  createStartMenuShortcut: true
+  shortcutName: Nova Launcher
+  uninstallDisplayName: Nova Launcher
