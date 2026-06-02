@@ -40,6 +40,13 @@ Nova Launcher is a Windows-first Minecraft launcher by Nova Studios. Designed to
 
 
 
+## How to Install
+
+### Download the release
+you can download the setup file from the github release
+### Join our discord 
+you can also get the setup file from our discord under the Download Section
+https://discord.gg/9pxrRrK2X4
 
 
 
