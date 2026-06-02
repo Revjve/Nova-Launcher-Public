@@ -2,9 +2,6 @@ node_modules
 dist
 dist-electron
 release
-agents.md
-overview.md
-.agents
 *.log
 *.tsbuildinfo
 
